@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_box{
+            height: 800px;
+            width: 100%;
+            align-items: center;
+        }
+
+        .box{
+            height: 300px;
+            width: 300px;
+            animation-name: animbox;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-fill-mode: backwards;
+            background-color: yellow;
+            animation-direction: alternate;
+            animation-duration: 2s;
+            border-radius: 150px;
+            position: relative;
+            animation-name: anim2;
+        }
+
+        @keyframes animbox {
+            from{
+                background-color: yellow;
+            }
+            to{
+                background-color: red;
+            }
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="main_box">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>

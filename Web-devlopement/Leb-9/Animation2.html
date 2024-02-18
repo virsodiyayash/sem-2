@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 562px;
+        }
+        .main_box{
+            height: 100%;
+            width: 100%;
+            align-items: center;
+        }
+
+        .box{
+            height: 50px;
+            width: 50px;
+            background-color: yellow;
+            border-radius: 150px;
+            position: relative; 
+            animation: animbox 3s linear infinite alternate,anim2 1s ease-in infinite alternate ;
+        }   
+
+        @keyframes animbox {
+           0%{
+                left: 0%;
+           }
+           10%{
+                left: 10%;
+           }
+           20%{
+                left: 20%;
+           }
+           30%{
+                left: 30%;
+           }
+           40%{
+                left: 40%;
+           }
+           50%{
+                left: 50%;
+           }
+           60%{
+                left: 60%;
+           }
+           70%{
+                left: 70%;
+           }
+           80%{
+                left: 80%;
+           }
+           90%{
+                left: 90%;
+           }
+           100%{
+                left: 100%;
+           }
+           
+        }
+
+        @keyframes anim2 {
+            to{
+                top: 0%;
+            }
+            from{
+                top: 10%;
+            }
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="main_box">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>
